@@ -4,7 +4,7 @@
 
 This repository documents **original architectural and quantitative research** on a two-tier hybrid memory system: Quantum-Dot Cellular Automata (QCA) as the fast electrostatic processor, and DNA as persistent molecular / sequence memory. The contribution is **not** a new oxDNA solver or a generic CAD tutorial. It is a **criteria-driven hybrid model**: mechanism selection, physical compatibility analysis, quantitative design targets, DNA nanostructure design, and role separation between compute and memory.
 
-Defense narrative: [`QCA-DNA Hybrid Models.pdf`](../QCA-DNA%20Hybrid%20Models.pdf)
+Defense narrative: [`QCA-DNA Hybrid Models.pdf`](./QCA-DNA%20Hybrid%20Models.pdf)
 
 ---
 
@@ -20,7 +20,7 @@ Published clocked QCA can “store” bits, but the cited RAM architecture keeps
 
 Individual building blocks are drawn from published physics/chemistry. **The research contribution is the hybrid integration, selection logic, quantitative compatibility, and architectural role assignment.**
 
-| Research contribution | What was done | Why it matters to an interviewer |
+| Research contribution | What was done | Why it matters |
 |-----------------------|---------------|----------------------------------|
 | **Problem framing** | Treat Walus’s circulating QCA-RAM limitation as the starting gap, not “QCA has no memory” | Positions the work as an interface / architecture problem, not a gadget demo |
 | **Role separation** | Assign QCA → fast logic; DNA → persistence / positioning after timescale comparison (~ps QCA vs seconds-scale DNA photoswitch) | Prevents misuse of DNA chemistry inside the critical logic path |
@@ -142,7 +142,7 @@ Requires a built oxDNA binary (Linux/WSL). Optional: `--stages write-inputs` to 
 
 ---
 
-## How to present this to an interviewer (30-second version)
+## How to present this:
 
 1. **Gap:** QCA lacks CMOS-like static memory in the cited RAM architecture → circulating loops.
 2. **Contribution:** a **hybrid interface architecture**—not reinventing QCA cells or inventing DNA from scratch.
@@ -164,7 +164,7 @@ Requires a built oxDNA binary (Linux/WSL). Optional: `--stages write-inputs` to 
 - Yazdi et al., rewritable DNA storage (2015)
 - DNA-origami nanoparticle placement literature (Wang, Ko, Hartl, Thacker, …)
 
-Full criteria tables, calculations, and defense positioning: [`QCA-DNA Hybrid Models.pdf`](../QCA-DNA%20Hybrid%20Models.pdf)
+Full criteria tables, calculations, and defense positioning: [`QCA-DNA Hybrid Models.pdf`](./QCA-DNA%20Hybrid%20Models.pdf)
 
 ---
 
